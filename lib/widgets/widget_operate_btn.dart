@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class OperateBtnWidget extends StatelessWidget {
-  final VoidCallback onPressed;
+  final VoidCallback? onPressed;
   final String title;
 
   const OperateBtnWidget({

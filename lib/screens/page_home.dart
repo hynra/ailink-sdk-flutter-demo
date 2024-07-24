@@ -240,7 +240,7 @@ class _HomePageState extends State<HomePage> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) =>  ConnectDevicePage(device: device,),
+                builder: (context) =>  ConnectDevicePage(device: device, ),
               ),
             );
           },
